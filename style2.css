@@ -1,0 +1,20 @@
+#op{
+
+color: red;
+font-style: italic;
+display: flex;
+justify-content: space-evenly;
+background-color: rgb(234, 234, 249);
+gap: 10%;
+
+}
+
+.pop{
+
+font-style:initial;
+
+color: aqua;
+
+
+
+}
