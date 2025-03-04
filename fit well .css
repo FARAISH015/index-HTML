@@ -1,31 +1,43 @@
-#head1{    
- 
-border-radius: 100px;
-display:flex;
-justify-content: space-between;
- background-color: black;
-color: blueviolet;
-margin:inherit;
+
+#home{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 
- .lol{
 
 
 
 
+
+
+
+#head1 nav ul  {   
 
 display: flex;
-justify-content:space-evenly;
+ justify-content:space-between; 
+align-items: center;
 
+}
 
+#head1 nav ul li a {
 
-
-
+    text-decoration: none;
 
 
 }
+
+ 
+
+
+
+ 
+
+
+
+
 
 
 
