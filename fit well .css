@@ -16,6 +16,9 @@
 background-repeat: no-repeat; 
  background-size:cover ; 
  background-position:center;
+ /* position: absolute; */
+ /* position: fixed; */
+ /* position: relative; */
 }
  #head1 nav ul  {   
 display: flex;
