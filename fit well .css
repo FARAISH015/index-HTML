@@ -19,6 +19,7 @@ background-repeat: no-repeat;
  /* position: absolute; */
  /* position: fixed; */
  /* position: relative; */
+ /* z-index: auto; */
 }
  #head1 nav ul  {   
 display: flex;
