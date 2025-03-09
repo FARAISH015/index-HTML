@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-
+scroll-behavior: smooth;
 
 
 }
@@ -20,6 +20,9 @@ background-repeat: no-repeat;
  /* position: fixed; */
  /* position: relative; */
  /* z-index: auto; */
+ grid-template-columns: max-content;
+ grid-template-columns: auto auto;
+ grid-template-columns: 1fr 2fr 3fr 4fr ;
 }
  #head1 nav ul  {   
 display: flex;
@@ -35,7 +38,11 @@ list-style-type: none;
 display: flex;
 justify-content: center;
 align-items: center;
-list-style-type: none;
+/* list-style-type: none; */
+display: flex;
+flex-wrap: wrap;
+justify-items: center;
+gap: 11px;
 }
 
 /* hader css end now  */
@@ -63,3 +70,7 @@ color: aquamarine;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
+
+box shadow padh na hai 
+text shadow
