@@ -3,31 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style2.css">
+    <title>Email Form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <form class="email-form" action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-<div id="op">
-<h1>hii tis is cybrom</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis sint molestiae,</p>
-<h2 class="pop">my name is faraish </h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-<ul>
-<li>name</li>
-<li>class</li>
-<li></li>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
 
-
-
-
-</ul>
-
-
-</div>
-
-
-
+        <button type="submit">Send</button>
+    </form>
 </body>
 </html>
